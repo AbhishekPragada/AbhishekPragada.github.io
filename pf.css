@@ -60,7 +60,7 @@ nav li a:hover {
 .hero{
   max-width: 960px;
   margin: 0 auto;
-  text align: center;
+  text-align: center;
 }
 .hero img{
   width: 200px;
@@ -111,19 +111,7 @@ svg{
 footer p{
   font-size: 0.8em;
 }
-.rocket img{
-  width: 50px;
-  animation: rocket 7s linear infinite;
-}
-.rocket{
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
+
  @keyframes rocket {
    0%{
      transform: translateY(0);
